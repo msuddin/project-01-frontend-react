@@ -1,4 +1,4 @@
-# sample-react-webapp
+# project-01-frontend-react
 
 ## Purpose
 
@@ -15,13 +15,18 @@ Answer:
 * It also contains login and logout logic
 * It also controls page render based on user login/logout status
 * The repo also contains a single src/App.test.js
+* Serves as a frontend for a locally running java-api
 
 ## Dependencies
 * This project assumes that http://localhost:8080/hi/{id} is available
-* This project assumes that the java jar found at https://github.com/msuddin/sample-spring-hibernate-local-postgres-db is running locally
+* This project assumes that the java jar found at https://github.com/msuddin/project-01-backend-api-java-spring-boot is running locally
 
 ## Instructions
-From the root directory of the project, run the following command:
+From the root directory of the project, run the following command to firstly install all dependencies:
+```
+npm install
+```
+Now run the application by running the following:
 ```
 npm start
 ```
